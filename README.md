@@ -56,6 +56,9 @@ Si escribes `addCard` en un archivo HTML y presionas `Tab`, se generará automá
 
 # 💻 Ejemplos de uso
 
+![Demo de la App](gifs/Vídeo-sin-título-‐-Hecho-con-Clipchamp-_5_.gif)
+
+![Demo de la App](gifs/Vídeo-sin-título-‐-Hecho-con-Clipchamp-_7_.gif)
 
 
 
