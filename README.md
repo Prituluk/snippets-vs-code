@@ -64,7 +64,92 @@ Si escribes `addCard` en un archivo HTML y presionas `Tab`, se generará automá
 
 ---
 
-# 📜 Lista de snippets
+# 📜  Colección de Snippets y Estilos CSS
+
+### ✍️ Formulario de Contacto
+- **Comando:** `addFormContact`
+- **Descripción:** Formulario básico.
+- **Snippet CSS:** `addFormCSSLight`, `addFormCSSDark`
+
+### 📹 Video
+- **Comando:** `addVideo`
+- **Descripción:** Inserta un video.
+- **Snippet CSS:** `addVideoCSSLight`, `addVideoCSSDark`
+
+### 🖼️ Imagen con Figcaption
+- **Comando:** `addFigure`
+- **Descripción:** Imagen con descripción.
+- **Snippet CSS:** `addFigureCSSLight`, `addFigureCSSDark`
+
+### 🏷️ Tarjeta (Card)
+- **Comando:** `addCard`
+- **Descripción:** Tarjeta informativa.
+- **Snippet CSS:** `addCardCSSLight`, `addCardCSSDark`
+
+### 📋 Lista
+- **Comando:** `addList`
+- **Descripción:** Lista con elementos.
+- **Snippet CSS:** `addListCSSLight`, `addListCSSDark`
+
+### 📌 Navbar
+- **Comando:** `addNavbar`
+- **Descripción:** Barra de navegación.
+- **Snippet CSS:** `addNavbarCSSLight`, `addNavbarCSSDark`
+
+### 📰 Artículo
+- **Comando:** `addArticle`
+- **Descripción:** Sección de artículo.
+- **Snippet CSS:** `addArticleCSSLight`, `addArticleCSSDark`
+
+### 📊 Tabla
+- **Comando:** `addTable`
+- **Descripción:** Tabla estructurada.
+- **Snippet CSS:** `addTableCSSLight`, `addTableCSSDark`
+
+### 📦 Sección
+- **Comando:** `addSection`
+- **Descripción:** Contenedor de sección.
+- **Snippet CSS:** `addSectionCSSLight`, `addSectionCSSDark`
+
+### 🏠 Main
+- **Comando:** `addMain`
+- **Descripción:** Contenido principal.
+- **Snippet CSS:** `addMainCSSLight`, `addMainCSSDark`
+
+### 🔚 Footer
+- **Comando:** `addFooter`
+- **Descripción:** Pie de página.
+- **Snippet CSS:** `addFooterCSSLight`, `addFooterCSSDark`
+
+### 🔘 Botón
+- **Comando:** `addButton`
+- **Descripción:** Botón interactivo.
+- **Snippet CSS:** `addButtonCSSLight`, `addButtonCSSDark`
+
+### 📂 Aside
+- **Comando:** `addAside`
+- **Descripción:** Barra lateral.
+- **Snippet CSS:** `addAsideCSSLight`, `addAsideCSSDark`
+
+### 📩 Formulario de Contacto
+- **Comando:** `addFormContact`
+- **Descripción:** Formulario de contacto.
+- **Snippet CSS:** `addFormContactCSSLight`, `addFormContactCSSDark`
+
+### 📢 Header
+- **Comando:** `addHeader`
+- **Descripción:** Encabezado.
+- **Snippet CSS:** `addHeaderCSSLight`, `addHeaderCSSDark`
+
+### 📝 Formulario
+- **Comando:** `addForm`
+- **Descripción:** Formulario general.
+- **Snippet CSS:** `addFormCSSLight`, `addFormCSSDark`
+
+### 🔎 Details
+- **Comando:** `addDetails`
+- **Descripción:** Elemento de detalles.
+- **Snippet CSS:** `addDetailsCSSLight`, `addDetailsCSSDark`
 
 
 ---
@@ -78,7 +163,7 @@ Si escribes `addCard` en un archivo HTML y presionas `Tab`, se generará automá
 
 2. **Clona el repositorio**
    ```sh
-   git clone https://github.com/tu-usuario/tu-repo.git
+   git clone https://github.com/Prituluk/snippets-vs-code.git
    ```
 
 3. **Crea una nueva rama**
