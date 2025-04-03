@@ -1,0 +1,226 @@
+{
+  "Insert Video Semantic HTML": {
+    "prefix": "addVideo",
+    "body": [
+      "<video class=\"video-sniped-342\" controls>",
+      "  <source src=\"video.mp4\" type=\"video/mp4\">",
+      "  <p class=\"video-message-342\">Tu navegador no soporta el elemento de video.</p>",
+      "</video>"
+    ],
+    "description": "Inserta un video con HTML semántico y controles"
+  },
+
+	"Standard Header": {
+    "prefix": "addHeaderStandar",
+    "body": [
+      "<header class=\"header-sniped-789\">",
+      "  <h1 class=\"header-title-789\">${1:Nombre del Sitio}</h1>",
+      "  <p class=\"header-desc-789\">${2:Descripción corta del sitio}</p>",
+      "</header>"
+    ],
+    "description": "Snippet para un header estándar con título y descripción"
+  },
+
+	"Standard Form": {
+    "prefix": "addFormContact",
+    "body": [
+      "<form action=\"${1:#}\" method=\"POST\" class=\"form-sniped-456\">",
+      "  <label for=\"name\" class=\"form-label-456\">Nombre:</label>",
+      "  <input type=\"text\" id=\"name\" name=\"name\" class=\"form-input-456\" required>",
+      "",
+      "  <label for=\"email\" class=\"form-label-456\">Email:</label>",
+      "  <input type=\"email\" id=\"email\" name=\"email\" class=\"form-input-456\" required>",
+      "",
+      "  <button type=\"submit\" class=\"form-button-456\">Enviar</button>",
+      "</form>"
+    ],
+    "description": "Snippet para un formulario de contacto básico"
+  },
+
+	"Standard Aside": {
+    "prefix": "addAsideStandar",
+    "body": [
+      "<aside class=\"aside-sniped-789\">",
+      "  <h2 class=\"aside-title-789\">${1:Título del Aside}</h2>",
+      "  <p class=\"aside-text-789\">${2:Contenido adicional o anuncios.}</p>",
+      "</aside>"
+    ],
+    "description": "Snippet para un aside estándar con contenido adicional"
+  },
+
+	"Standard Button": {
+    "prefix": "addButtonStandar",
+    "body": [
+      "<button type=\"button\" class=\"btn-sniped-123\">${1:Texto del botón}</button>"
+    ],
+    "description": "Snippet para un botón estándar"
+  },
+
+	"Standard Footer": {
+    "prefix": "addFooterStandar",
+    "body": [
+      "<footer class=\"footer-sniped-456\">",
+      "  <p class=\"footer-text-456\">&copy; ${1:2024} ${2:Tu Empresa}. Todos los derechos reservados.</p>",
+      "</footer>"
+    ],
+    "description": "Snippet para un footer estándar con derechos de autor"
+  },
+
+	"SEO Metadata": {
+		"prefix": "addMetaSEO",
+		"body": [
+			"<meta name=\"description\" content=\"${1:Descripción breve del sitio (máx. 160 caracteres)}\"> <!-- Meta descripción para SEO -->",
+			"<meta name=\"keywords\" content=\"${2:palabra clave 1, palabra clave 2, palabra clave 3}\"> <!-- Palabras clave para buscadores (no tan usadas por Google) -->",
+			"<meta name=\"author\" content=\"${3:Tu Nombre o Empresa}\"> <!-- Autor del sitio web -->",
+			"",
+			"<meta property=\"og:title\" content=\"${4:Título para Redes Sociales}\"> <!-- Título cuando se comparte en redes sociales -->",
+			"<meta property=\"og:description\" content=\"${5:Descripción optimizada para compartir en redes sociales}\"> <!-- Descripción para redes sociales -->",
+			"<meta property=\"og:image\" content=\"${6:URL de la imagen destacada}\"> <!-- Imagen destacada cuando se comparte la página -->",
+			"<meta property=\"og:url\" content=\"${7:URL de la página}\"> <!-- URL que se usará en la vista previa de redes sociales -->",
+			"",
+			"<meta name=\"robots\" content=\"index, follow\"> <!-- Indica a los buscadores si deben indexar la página -->",
+			"<link rel=\"canonical\" href=\"${8:URL canónica de la página}\"> <!-- URL principal para evitar contenido duplicado -->"
+		],
+		"description": "Snippet de metadatos SEO con explicaciones para mejorar la optimización en buscadores"
+	},
+
+	"Standard Main": {
+    "prefix": "addMainStandar",
+    "body": [
+      "<main class=\"main-sniped-789\">",
+      "  <h2 class=\"main-title-789\">${1:Contenido Principal}</h2>",
+      "  <p class=\"main-content-789\">${2:Texto central de la página.}</p>",
+      "</main>"
+    ],
+    "description": "Snippet para una sección main estándar con título y contenido"
+  },
+
+	"Standard Section": {
+    "prefix": "addSectionStandar",
+    "body": [
+      "<section class=\"section-sniped-678\">",
+      "  <h2 class=\"section-title-678\">${1:Sección Importante}</h2>",
+      "  <p class=\"section-content-678\">${2:Contenido relacionado con esta sección.}</p>",
+      "</section>"
+    ],
+    "description": "Snippet para una sección estándar con título y contenido"
+  },
+
+	"Standard Table": {
+    "prefix": "addTableStandar",
+    "body": [
+      "<table class=\"table-sniped-456\">",
+      "  <caption class=\"table-caption-456\">${1:Datos Importantes}</caption>",
+      "  <thead class=\"table-head-456\">",
+      "    <tr class=\"table-row-456\">",
+      "      <th class=\"table-header-456\">${2:Columna 1}</th>",
+      "      <th class=\"table-header-456\">${3:Columna 2}</th>",
+      "    </tr>",
+      "  </thead>",
+      "  <tbody class=\"table-body-456\">",
+      "    <tr class=\"table-row-456\">",
+      "      <td class=\"table-data-456\">${4:Dato 1}</td>",
+      "      <td class=\"table-data-456\">${5:Dato 2}</td>",
+      "    </tr>",
+      "  </tbody>",
+      "</table>"
+    ],
+    "description": "Snippet para una tabla estándar con encabezado, cuerpo y título"
+  },
+
+	"Standard Article": {
+    "prefix": "addArticleStandar",
+    "body": [
+      "<article class=\"article-sniped-789\">",
+      "  <header class=\"article-header-789\">",
+      "    <h1 class=\"article-title-789\">${1:Título del Artículo}</h1>",
+      "    <p class=\"article-meta-789\">${2:Autor} - ${3:Fecha}</p>",
+      "  </header>",
+      "  <p class=\"article-content-789\">${4:Contenido del artículo...}</p>",
+      "</article>"
+    ],
+    "description": "Snippet para un artículo estándar con título, autor, fecha y contenido"
+  },
+
+	"Standard Navigation Bar": {
+    "prefix": "addNavBarStandar",
+    "body": [
+      "<nav class=\"navbar-sniped-123\">",
+      "  <ul class=\"nav-list-123\">",
+      "    <li class=\"nav-item-123\"><a class=\"nav-link-123\" href=\"${1:#}\">${2:Inicio}</a></li>",
+      "    <li class=\"nav-item-123\"><a class=\"nav-link-123\" href=\"${3:#}\">${4:Acerca}</a></li>",
+      "    <li class=\"nav-item-123\"><a class=\"nav-link-123\" href=\"${5:#}\">${6:Contacto}</a></li>",
+      "  </ul>",
+      "</nav>"
+    ],
+    "description": "Snippet para una barra de navegación estándar con tres enlaces"
+  },
+
+	"Standard List": {
+    "prefix": "addListStandar",
+    "body": [
+      "<ul class=\"list-sniped-456\">",
+      "  <li class=\"list-item-456\">${1:Elemento 1}</li>",
+      "  <li class=\"list-item-456\">${2:Elemento 2}</li>",
+      "  <li class=\"list-item-456\">${3:Elemento 3}</li>",
+      "</ul>"
+    ],
+    "description": "Snippet para una lista desordenada estándar con tres elementos"
+  },
+
+	"Standard Card with Image": {
+    "prefix": "addCardStandar",
+    "body": [
+      "<article class=\"card-sniped-789\">",
+      "  <figure class=\"card-figure-789\">",
+      "    <img class=\"card-img-789\" src=\"${1:imagen.jpg}\" alt=\"${2:Descripción}\">",
+      "  </figure>",
+      "  <h2 class=\"card-title-789\">${3:Título de la Card}</h2>",
+      "  <p class=\"card-description-789\">${4:Descripción breve del contenido.}</p>",
+      "  <a class=\"card-link-789\" href=\"${5:#}\">${6:Ver más}</a>",
+      "</article>"
+    ],
+    "description": "Snippet para una card estándar con imagen, título, descripción y enlace"
+  },
+
+	"Figure with Image and Caption": {
+    "prefix": "addImg",
+    "body": [
+      "<figure class=\"figure-sniped-567\">",
+      "  <img class=\"img-sniped-567\" src=\"${1:imagen.jpg}\" alt=\"${2:Descripción de la imagen}\">",
+      "  <figcaption class=\"figcaption-sniped-567\">${3:Pie de imagen descriptivo.}</figcaption>",
+      "</figure>"
+    ],
+    "description": "Snippet para figure con imagen y pie de foto"
+  },
+
+	"Insert Form Standar Semantic HTML": {
+		"prefix": "addForm",
+		"body": [
+			"<form class=\"form-sniped-222\" action=\"/submit\" method=\"post\">",
+			"  <fieldset class=\"fieldset-sniped-222\">",
+			"    <legend class=\"legend-sniped-222\">Información Personal</legend>",
+			"    <label class=\"label-sniped-222\" for=\"name\">Nombre:</label>",
+			"    <input class=\"input-sniped-222\" type=\"text\" id=\"name\" name=\"name\" required>",
+			"",
+			"    <label class=\"label-sniped-222\" for=\"email\">Correo:</label>",
+			"    <input class=\"input-sniped-222\" type=\"email\" id=\"email\" name=\"email\" required>",
+			"",
+			"    <button class=\"button-sniped-222\" type=\"submit\">Enviar</button>",
+			"  </fieldset>",
+			"</form>"
+		],
+		"description": "Inserta un formulario de información personal con HTML semántico"
+	},
+
+	"Standard Details": {
+    "prefix": "addDetails",
+    "body": [
+      "<details class=\"details-sniped-456\">",
+      "  <summary class=\"summary-sniped-456\">${1:Pregunta aquí}</summary>",
+      "  <p class=\"details-content-456\">${2:Respuesta o contenido aquí}</p>",
+      "</details>"
+    ],
+    "description": "Snippet para un elemento details con summary y contenido"
+  }
+}
